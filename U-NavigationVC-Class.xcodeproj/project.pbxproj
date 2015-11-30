@@ -12,6 +12,7 @@
 		EA1C0F501BFF335E0002F440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1C0F4E1BFF335E0002F440 /* Main.storyboard */; };
 		EA1C0F521BFF335E0002F440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1C0F511BFF335E0002F440 /* Assets.xcassets */; };
 		EA1C0F551BFF335E0002F440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1C0F531BFF335E0002F440 /* LaunchScreen.storyboard */; };
+		EA8081581C0494DF00069F85 /* MYOAviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8081571C0494DF00069F85 /* MYOAviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EA1C0F511BFF335E0002F440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1C0F541BFF335E0002F440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA1C0F561BFF335E0002F440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8081571C0494DF00069F85 /* MYOAviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYOAviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				EA1C0F511BFF335E0002F440 /* Assets.xcassets */,
 				EA1C0F531BFF335E0002F440 /* LaunchScreen.storyboard */,
 				EA1C0F561BFF335E0002F440 /* Info.plist */,
+				EA8081571C0494DF00069F85 /* MYOAviewController.swift */,
 			);
 			path = "U-NavigationVC-Class";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1C0F4D1BFF335E0002F440 /* ViewController.swift in Sources */,
+				EA8081581C0494DF00069F85 /* MYOAviewController.swift in Sources */,
 				EA1C0F4B1BFF335E0002F440 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +297,7 @@
 				EA1C0F5B1BFF335E0002F440 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
